@@ -1,9 +1,11 @@
 {
   "name": "webscraping",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Overview",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +13,23 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars.moment": "^1.0.4",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyvirgil/saeng-il.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonyvirgil/saeng-il/issues"
+  },
+  "homepage": "https://github.com/anthonyvirgil/saeng-il#readme"
 }
