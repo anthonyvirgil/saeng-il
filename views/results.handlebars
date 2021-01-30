@@ -1,0 +1,28 @@
+<ul class="list-group">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Stage Name</th>
+        <th>Birth Name</th>
+        <th>Group</th>
+        <th>Birthday</th>
+        <th>Age</th>
+        <th>Korean Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each idols}}
+        <tr>
+          <td>{{this._id}}</td>
+          <td>{{this.stage_name}}</td>
+          <td>{{this.birth_name}}</td>
+          <td>{{this.group_name}}</td>
+          <td>{{this.birthday_string}}</td>
+          <td>{{this.age}}</td>
+          <td>{{this.korean_age}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</ul>
